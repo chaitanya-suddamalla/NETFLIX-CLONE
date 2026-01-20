@@ -11,7 +11,7 @@ This project is **static**, **responsive**, and **beginner-friendly** — aimed 
 
  # 🗂 **Project Folder Structure**
 
-pre>
+<pre>
 ```
 Netflix-Clone/
 ├── index.html               # Home page
