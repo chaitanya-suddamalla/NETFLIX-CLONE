@@ -10,8 +10,8 @@ This project is **static**, **responsive**, and **beginner-friendly** — aimed 
 ![image alt](https://github.com/chaitanya-suddamalla/NETFLIX-CLONE/blob/5a6c9f4bffa373be3273dbec600c15819b3f9ecf/Screenshot%202025-06-12%20205354.png)
 
  # 🗂 **Project Folder Structure**
+ ```
 
-<pre>
 Netflix-Clone/
 ├── index.html               # Home page
 ├── profile-details.html     # Profile page
@@ -21,7 +21,8 @@ Netflix-Clone/
 ├── images/
 │   ├── mission.webp
 │   └── stranger-things.webp
-</pre>
+ ```
+
 
 # **🛠 System Architecture**
 
