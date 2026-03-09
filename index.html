@@ -1,616 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Netflix Clone</title>
-  <link rel="stylesheet" href="styles.css" />
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-  />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Netflix Clone</title>
+
+<link rel="stylesheet" href="styles.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
 </head>
+
 <body>
-  <!-- Navbar -->
-  <nav class="navbar">
-    <div class="navbar-brand">
-      <img
-        <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg">
 
-        alt="Netflix Logo"
-        class="logo"
-      />
-    </div>
-    <div class="navbar-nav">
-      <a href="#" class="nav-link">Home</a>
-      <a href="#" class="nav-link">TV Shows</a>
-      <a href="#" class="nav-link">Movies</a>
-      <a href="#" class="nav-link">New & Popular</a>
-      <a href="#" class="nav-link">My List</a>
-    </div>
-    <div class="navbar-right">
-      <i class="fas fa-search"></i>
-      <i class="fas fa-bell"></i>
-      <img
-        src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png"
-        alt="Profile"
-        class="profile-icon"
-      />
-    </div>
-  </nav>
+<!-- Navbar -->
+<nav class="navbar">
 
-  <!-- Hero Section -->
-  <header class="hero">
-    <div class="hero-content">
-      <h1 class="hero-title">Stranger Things</h1>
-      <p class="hero-description">
-        When a young boy vanishes, a small town uncovers a mystery involving secret experiments,
-        terrifying supernatural forces, and one strange little girl.
-      </p>
-      <div class="hero-buttons">
-        <button class="btn play-btn"><i class="fas fa-play"></i> Play</button>
-        <button class="btn info-btn"><i class="fas fa-info-circle"></i> More Info</button>
-      </div>
-    </div>
-  </header>
+<div class="navbar-brand">
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
+alt="Netflix Logo"
+class="logo">
+</div>
 
-  <!-- Movie Section -->
-  <div class="container">
-    <section class="content-section">
-      <h2 class="section-title">Only On Netflix</h2>
-      <div class="content-row">
-        <!-- Repeatable Card -->
-        <div class="content-card">
-          <img src="mission.webp" alt="Movie card" />
-          <div class="netflix-badge">N</div>
-          <div class="card-overlay">
-            <div class="overlay-top">
-              <div class="netflix-badge">N</div>
-            </div>
-            <div class="overlay-bottom">
-              <div class="overlay-control">
-                <div class="control-btn play-btn"></div>
-                <div class="control-btn check-btn"></div>
-                <div class="control-btn thumbs-btn"></div>
-                <div class="control-btn more-btn"></div>
-              </div>
-              <div class="overlay-info">
-                <div class="info-batch">TV-MA</div>
-                <div class="info-batch">Limited Series</div>
-                <div class="info-batch">HD</div>
-              </div>
-            </div>
-          </div>
-        </div>
+<div class="navbar-nav">
+<a href="#" class="nav-link">Home</a>
+<a href="#" class="nav-link">TV Shows</a>
+<a href="#" class="nav-link">Movies</a>
+<a href="#" class="nav-link">New & Popular</a>
+<a href="#" class="nav-link">My List</a>
+</div>
 
-        <!-- Card 2 -->
-        <div class="content-card">
-          <img src="mission.webp" alt="Movie card" />
-          <div class="netflix-badge">N</div>
-          <div class="card-overlay">
-            <div class="overlay-top">
-              <div class="netflix-badge">N</div>
-            </div>
-            <div class="overlay-bottom">
-              <div class="overlay-control">
-                <div class="control-btn play-btn"></div>
-                <div class="control-btn check-btn"></div>
-                <div class="control-btn thumbs-btn"></div>
-                <div class="control-btn more-btn"></div>
-              </div>
-              <div class="overlay-info">
-                <div class="info-batch">TV-MA</div>
-                <div class="info-batch">Limited Series</div>
-                <div class="info-batch">HD</div>
-              </div>
-            </div>
-          </div>
-        </div>
+<div class="navbar-right">
+<i class="fas fa-search"></i>
+<i class="fas fa-bell"></i>
 
-        <!-- Card 3 -->
-        <div class="content-card">
-          <img src="mission.webp" alt="Movie card" />
-          <div class="netflix-badge">N</div>
-          <div class="card-overlay">
-            <div class="overlay-top">
-              <div class="netflix-badge">N</div>
-            </div>
-            <div class="overlay-bottom">
-              <div class="overlay-control">
-                <div class="control-btn play-btn"></div>
-                <div class="control-btn check-btn"></div>
-                <div class="control-btn thumbs-btn"></div>
-                <div class="control-btn more-btn"></div>
-              </div>
-              <div class="overlay-info">
-                <div class="info-batch">TV-MA</div>
-                <div class="info-batch">Limited Series</div>
-                <div class="info-batch">HD</div>
-              </div>
-            </div>
-          </div>
-        </div>
+<img
+src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png"
+alt="Profile"
+class="profile-icon">
 
-        <!-- Card 4 -->
-        <div class="content-card">
-          <img src="mission.webp" alt="Movie card" />
-          <div class="netflix-badge">N</div>
-          <div class="card-overlay">
-            <div class="overlay-top">
-              <div class="netflix-badge">N</div>
-            </div>
-            <div class="overlay-bottom">
-              <div class="overlay-control">
-                <div class="control-btn play-btn"></div>
-                <div class="control-btn check-btn"></div>
-                <div class="control-btn thumbs-btn"></div>
-                <div class="control-btn more-btn"></div>
-              </div>
-              <div class="overlay-info">
-                <div class="info-batch">TV-MA</div>
-                <div class="info-batch">Limited Series</div>
-                <div class="info-batch">HD</div>
-              </div>
-            </div>
-          </div>
-        </div>
+</div>
 
-        <!-- Card 5 -->
-        <div class="content-card">
-          <img src="mission.webp" alt="Movie card" />
-          <div class="netflix-badge">N</div>
-          <div class="card-overlay">
-            <div class="overlay-top">
-              <div class="netflix-badge">N</div>
-            </div>
-            <div class="overlay-bottom">
-              <div class="overlay-control">
-                <div class="control-btn play-btn"></div>
-                <div class="control-btn check-btn"></div>
-                <div class="control-btn thumbs-btn"></div>
-                <div class="control-btn more-btn"></div>
-              </div>
-              <div class="overlay-info">
-                <div class="info-batch">TV-MA</div>
-                <div class="info-batch">Limited Series</div>
-                <div class="info-batch">HD</div>
-              </div>
-            </div>
-          </div>
-        </div>
+</nav>
 
-      </div>
-    </section>
-  </div>
-  
-  <!-- Movie Section -->
-  <div class="container">
-    <section class="content-section">
-      <h2 class="section-title">Only On Netflix</h2>
-      <div class="content-row">
-        <!-- Repeatable Card -->
-        <div class="content-card">
-          <img src="mission.webp" alt="Movie card" />
-          <div class="netflix-badge">N</div>
-          <div class="card-overlay">
-            <div class="overlay-top">
-              <div class="netflix-badge">N</div>
-            </div>
-            <div class="overlay-bottom">
-              <div class="overlay-control">
-                <div class="control-btn play-btn"></div>
-                <div class="control-btn check-btn"></div>
-                <div class="control-btn thumbs-btn"></div>
-                <div class="control-btn more-btn"></div>
-              </div>
-              <div class="overlay-info">
-                <div class="info-batch">TV-MA</div>
-                <div class="info-batch">Limited Series</div>
-                <div class="info-batch">HD</div>
-              </div>
-            </div>
-          </div>
-        </div>
+<!-- Hero Section -->
 
-        <!-- Card 2 -->
-        <div class="content-card">
-          <img src="mission.webp" alt="Movie card" />
-          <div class="netflix-badge">N</div>
-          <div class="card-overlay">
-            <div class="overlay-top">
-              <div class="netflix-badge">N</div>
-            </div>
-            <div class="overlay-bottom">
-              <div class="overlay-control">
-                <div class="control-btn play-btn"></div>
-                <div class="control-btn check-btn"></div>
-                <div class="control-btn thumbs-btn"></div>
-                <div class="control-btn more-btn"></div>
-              </div>
-              <div class="overlay-info">
-                <div class="info-batch">TV-MA</div>
-                <div class="info-batch">Limited Series</div>
-                <div class="info-batch">HD</div>
-              </div>
-            </div>
-          </div>
-        </div>
+<header class="hero">
 
-        <!-- Card 3 -->
-        <div class="content-card">
-          <img src="mission.webp" alt="Movie card" />
-          <div class="netflix-badge">N</div>
-          <div class="card-overlay">
-            <div class="overlay-top">
-              <div class="netflix-badge">N</div>
-            </div>
-            <div class="overlay-bottom">
-              <div class="overlay-control">
-                <div class="control-btn play-btn"></div>
-                <div class="control-btn check-btn"></div>
-                <div class="control-btn thumbs-btn"></div>
-                <div class="control-btn more-btn"></div>
-              </div>
-              <div class="overlay-info">
-                <div class="info-batch">TV-MA</div>
-                <div class="info-batch">Limited Series</div>
-                <div class="info-batch">HD</div>
-              </div>
-            </div>
-          </div>
-        </div>
+<div class="hero-content">
 
-        <!-- Card 4 -->
-        <div class="content-card">
-          <img src="mission.webp" alt="Movie card" />
-          <div class="netflix-badge">N</div>
-          <div class="card-overlay">
-            <div class="overlay-top">
-              <div class="netflix-badge">N</div>
-            </div>
-            <div class="overlay-bottom">
-              <div class="overlay-control">
-                <div class="control-btn play-btn"></div>
-                <div class="control-btn check-btn"></div>
-                <div class="control-btn thumbs-btn"></div>
-                <div class="control-btn more-btn"></div>
-              </div>
-              <div class="overlay-info">
-                <div class="info-batch">TV-MA</div>
-                <div class="info-batch">Limited Series</div>
-                <div class="info-batch">HD</div>
-              </div>
-            </div>a
-          </div>
-        </div>
+<h1 class="hero-title">Stranger Things</h1>
 
-        <!-- Card 5 -->
-        <div class="content-card">
-          <img src="mission.webp" alt="Movie card" />
-          <div class="netflix-badge">N</div>
-          <div class="card-overlay">
-            <div class="overlay-top">
-              <div class="netflix-badge">N</div>
-            </div>
-            <div class="overlay-bottom">
-              <div class="overlay-control">
-                <div class="control-btn play-btn"></div>
-                <div class="control-btn check-btn"></div>
-                <div class="control-btn thumbs-btn"></div>
-                <div class="control-btn more-btn"></div>
-              </div>
-              <div class="overlay-info">
-                <div class="info-batch">TV-MA</div>
-                <div class="info-batch">Limited Series</div>
-                <div class="info-batch">HD</div>
-              </div>
-            </div>
-          </div>
-        </div>
+<p class="hero-description">
+When a young boy vanishes, a small town uncovers a mystery involving
+secret experiments, terrifying supernatural forces, and one strange little girl.
+</p>
 
-      </div>
-    </section>
-  </div>
-  
-  <!-- Movie Section -->
-  <div class="container">
-    <section class="content-section">
-      <h2 class="section-title">Only On Netflix</h2>
-      <div class="content-row">
-        <!-- Repeatable Card -->
-        <div class="content-card">
-          <img src="mission.webp" alt="Movie card" />
-          <div class="netflix-badge">N</div>
-          <div class="card-overlay">
-            <div class="overlay-top">
-              <div class="netflix-badge">N</div>
-            </div>
-            <div class="overlay-bottom">
-              <div class="overlay-control">
-                <div class="control-btn play-btn"></div>
-                <div class="control-btn check-btn"></div>
-                <div class="control-btn thumbs-btn"></div>
-                <div class="control-btn more-btn"></div>
-              </div>
-              <div class="overlay-info">
-                <div class="info-batch">TV-MA</div>
-                <div class="info-batch">Limited Series</div>
-                <div class="info-batch">HD</div>
-              </div>
-            </div>
-          </div>
-        </div>
+<div class="hero-buttons">
 
-        <!-- Card 2 -->
-        <div class="content-card">
-          <img src="mission.webp" alt="Movie card" />
-          <div class="netflix-badge">N</div>
-          <div class="card-overlay">
-            <div class="overlay-top">
-              <div class="netflix-badge">N</div>
-            </div>
-            <div class="overlay-bottom">
-              <div class="overlay-control">
-                <div class="control-btn play-btn"></div>
-                <div class="control-btn check-btn"></div>
-                <div class="control-btn thumbs-btn"></div>
-                <div class="control-btn more-btn"></div>
-              </div>
-              <div class="overlay-info">
-                <div class="info-batch">TV-MA</div>
-                <div class="info-batch">Limited Series</div>
-                <div class="info-batch">HD</div>
-              </div>
-            </div>
-          </div>
-        </div>
+<button class="btn play-btn">
+<i class="fas fa-play"></i> Play
+</button>
 
-        <!-- Card 3 -->
-        <div class="content-card">
-          <img src="mission.webp" alt="Movie card" />
-          <div class="netflix-badge">N</div>
-          <div class="card-overlay">
-            <div class="overlay-top">
-              <div class="netflix-badge">N</div>
-            </div>
-            <div class="overlay-bottom">
-              <div class="overlay-control">
-                <div class="control-btn play-btn"></div>
-                <div class="control-btn check-btn"></div>
-                <div class="control-btn thumbs-btn"></div>
-                <div class="control-btn more-btn"></div>
-              </div>
-              <div class="overlay-info">
-                <div class="info-batch">TV-MA</div>
-                <div class="info-batch">Limited Series</div>
-                <div class="info-batch">HD</div>
-              </div>
-            </div>
-          </div>
-        </div>
+<button class="btn info-btn">
+<i class="fas fa-info-circle"></i> More Info
+</button>
 
-        <!-- Card 4 -->
-        <div class="content-card">
-          <img src="mission.webp" alt="Movie card" />
-          <div class="netflix-badge">N</div>
-          <div class="card-overlay">
-            <div class="overlay-top">
-              <div class="netflix-badge">N</div>
-            </div>
-            <div class="overlay-bottom">
-              <div class="overlay-control">
-                <div class="control-btn play-btn"></div>
-                <div class="control-btn check-btn"></div>
-                <div class="control-btn thumbs-btn"></div>
-                <div class="control-btn more-btn"></div>
-              </div>
-              <div class="overlay-info">
-                <div class="info-batch">TV-MA</div>
-                <div class="info-batch">Limited Series</div>
-                <div class="info-batch">HD</div>
-              </div>
-            </div>
-          </div>
-        </div>
+</div>
 
-        <!-- Card 5 -->
-        <div class="content-card">
-          <img src="mission.webp" alt="Movie card" />
-          <div class="netflix-badge">N</div>
-          <div class="card-overlay">
-            <div class="overlay-top">
-              <div class="netflix-badge">N</div>
-            </div>
-            <div class="overlay-bottom">
-              <div class="overlay-control">
-                <div class="control-btn play-btn"></div>
-                <div class="control-btn check-btn"></div>
-                <div class="control-btn thumbs-btn"></div>
-                <div class="control-btn more-btn"></div>
-              </div>
-              <div class="overlay-info">
-                <div class="info-batch">TV-MA</div>
-                <div class="info-batch">Limited Series</div>
-                <div class="info-batch">HD</div>
-              </div>
-            </div>
-          </div>
-        </div>
+</div>
 
-      </div>
-    </section>
-  </div>
-  
-  <!-- Movie Section -->
-  <div class="container">
-    <section class="content-section">
-      <h2 class="section-title">Only On Netflix</h2>
-      <div class="content-row">
-        <!-- Repeatable Card -->
-        <div class="content-card">
-          <img src="mission.webp" alt="Movie card" />
-          <div class="netflix-badge">N</div>
-          <div class="card-overlay">
-            <div class="overlay-top">
-              <div class="netflix-badge">N</div>
-            </div>
-            <div class="overlay-bottom">
-              <div class="overlay-control">
-                <div class="control-btn play-btn"></div>
-                <div class="control-btn check-btn"></div>
-                <div class="control-btn thumbs-btn"></div>
-                <div class="control-btn more-btn"></div>
-              </div>
-              <div class="overlay-info">
-                <div class="info-batch">TV-MA</div>
-                <div class="info-batch">Limited Series</div>
-                <div class="info-batch">HD</div>
-              </div>
-            </div>
-          </div>
-        </div>
+</header>
 
-        <!-- Card 2 -->
-        <div class="content-card">
-          <img src="mission.webp" alt="Movie card" />
-          <div class="netflix-badge">N</div>
-          <div class="card-overlay">
-            <div class="overlay-top">
-              <div class="netflix-badge">N</div>
-            </div>
-            <div class="overlay-bottom">
-              <div class="overlay-control">
-                <div class="control-btn play-btn"></div>
-                <div class="control-btn check-btn"></div>
-                <div class="control-btn thumbs-btn"></div>
-                <div class="control-btn more-btn"></div>
-              </div>
-              <div class="overlay-info">
-                <div class="info-batch">TV-MA</div>
-                <div class="info-batch">Limited Series</div>
-                <div class="info-batch">HD</div>
-              </div>
-            </div>
-          </div>
-        </div>
 
-        <!-- Card 3 -->
-        <div class="content-card">
-          <img src="mission.webp" alt="Movie card" />
-          <div class="netflix-badge">N</div>
-          <div class="card-overlay">
-            <div class="overlay-top">
-              <div class="netflix-badge">N</div>
-            </div>
-            <div class="overlay-bottom">
-              <div class="overlay-control">
-                <div class="control-btn play-btn"></div>
-                <div class="control-btn check-btn"></div>
-                <div class="control-btn thumbs-btn"></div>
-                <div class="control-btn more-btn"></div>
-              </div>
-              <div class="overlay-info">
-                <div class="info-batch">TV-MA</div>
-                <div class="info-batch">Limited Series</div>
-                <div class="info-batch">HD</div>
-              </div>
-            </div>
-          </div>
-        </div>
+<!-- Movie Section -->
 
-        <!-- Card 4 -->
-        <div class="content-card">
-          <img src="mission.webp" alt="Movie card" />
-          <div class="netflix-badge">N</div>
-          <div class="card-overlay">
-            <div class="overlay-top">
-              <div class="netflix-badge">N</div>
-            </div>
-            <div class="overlay-bottom">
-              <div class="overlay-control">
-                <div class="control-btn play-btn"></div>
-                <div class="control-btn check-btn"></div>
-                <div class="control-btn thumbs-btn"></div>
-                <div class="control-btn more-btn"></div>
-              </div>
-              <div class="overlay-info">
-                <div class="info-batch">TV-MA</div>
-                <div class="info-batch">Limited Series</div>
-                <div class="info-batch">HD</div>
-              </div>
-            </div>
-          </div>
-        </div>
+<div class="container">
 
-        <!-- Card 5 -->
-        <div class="content-card">
-          <img src="mission.webp" alt="Movie card" />
-          <div class="netflix-badge">N</div>
-          <div class="card-overlay">
-            <div class="overlay-top">
-              <div class="netflix-badge">N</div>
-            </div>
-            <div class="overlay-bottom">
-              <div class="overlay-control">
-                <div class="control-btn play-btn"></div>
-                <div class="control-btn check-btn"></div>
-                <div class="control-btn thumbs-btn"></div>
-                <div class="control-btn more-btn"></div>
-              </div>
-              <div class="overlay-info">
-                <div class="info-batch">TV-MA</div>
-                <div class="info-batch">Limited Series</div>
-                <div class="info-batch">HD</div>
-              </div>
-            </div>
-          </div>
-        </div>
+<section class="content-section">
 
-      </div>
-    </section>
-  </div>
-   <script src="script.js"></script>
-   <footer>
-  <!-- Social Media Icons -->
-  <div class="footer-social-icons">
-    <a href="https://facebook.com" target="_blank">
-      <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" width="40" />
-    </a>
-    <a href="https://instagram.com" target="_blank">
-      <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram" width="40" />
-    </a>
-    <a href="https://twitter.com" target="_blank">
-      <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter" width="40" />
-    </a>
-    <a href="https://youtube.com" target="_blank">
-      <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube" width="40" />
-    </a>
-  </div>
+<h2 class="section-title">Only On Netflix</h2>
 
-  <!-- Footer Text Links in 4 Columns -->
-  <div class="footer-links">
-    <div>
-      <p><a href="#">Audio Description</a></p>
-      <p><a href="#">Investor Relations</a></p>
-      <p><a href="#">Cookie Preferences</a></p>
-    </div>
-    <div>
-      <p><a href="#">Help Center</a></p>
-      <p><a href="#">Jobs</a></p>
-      <p><a href="#">Legal Notices</a></p>
-    </div>
-    <div>
-      <p><a href="#">Gift Cards</a></p>
-      <p><a href="#">Terms of Use</a></p>
-      <p><a href="#">Corporate Information</a></p>
-    </div>
-    <div>
-      <p><a href="#">Media Center</a></p>
-      <p><a href="#">Privacy</a></p>
-      <p><a href="#">Contact Us</a></p>
-    </div>
-  </div>
+<div class="content-row">
+
+<!-- Card -->
+<div class="content-card">
+
+<img src="mission.webp" alt="Movie">
+
+<div class="netflix-badge">N</div>
+
+<div class="card-overlay">
+
+<div class="overlay-top">
+<div class="netflix-badge">N</div>
+</div>
+
+<div class="overlay-bottom">
+
+<div class="overlay-control">
+
+<div class="control-btn play-btn"></div>
+<div class="control-btn check-btn"></div>
+<div class="control-btn thumbs-btn"></div>
+<div class="control-btn more-btn"></div>
+
+</div>
+
+<div class="overlay-info">
+
+<div class="info-batch">TV-MA</div>
+<div class="info-batch">Limited Series</div>
+<div class="info-batch">HD</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Duplicate Cards -->
+<div class="content-card">
+<img src="mission.webp" alt="Movie">
+</div>
+
+<div class="content-card">
+<img src="mission.webp" alt="Movie">
+</div>
+
+<div class="content-card">
+<img src="mission.webp" alt="Movie">
+</div>
+
+<div class="content-card">
+<img src="mission.webp" alt="Movie">
+</div>
+
+</div>
+
+</section>
+
+</div>
+
+
+<script src="script.js"></script>
+
+
+<!-- Footer -->
+
+<footer>
+
+<div class="footer-social-icons">
+
+<a href="https://facebook.com" target="_blank">
+<img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" width="40">
+</a>
+
+<a href="https://instagram.com" target="_blank">
+<img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" width="40">
+</a>
+
+<a href="https://twitter.com" target="_blank">
+<img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" width="40">
+</a>
+
+<a href="https://youtube.com" target="_blank">
+<img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" width="40">
+</a>
+
+</div>
+
+
+<div class="footer-links">
+
+<div>
+<p><a href="#">Audio Description</a></p>
+<p><a href="#">Investor Relations</a></p>
+<p><a href="#">Cookie Preferences</a></p>
+</div>
+
+<div>
+<p><a href="#">Help Center</a></p>
+<p><a href="#">Jobs</a></p>
+<p><a href="#">Legal Notices</a></p>
+</div>
+
+<div>
+<p><a href="#">Gift Cards</a></p>
+<p><a href="#">Terms of Use</a></p>
+<p><a href="#">Corporate Information</a></p>
+</div>
+
+<div>
+<p><a href="#">Media Center</a></p>
+<p><a href="#">Privacy</a></p>
+<p><a href="#">Contact Us</a></p>
+</div>
+
+</div>
+
 </footer>
+
 </body>
 </html>
